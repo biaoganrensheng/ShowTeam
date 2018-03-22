@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>尚轩</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Around Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link rel="shortcut icon" href="images/sx.ico" type="images/x-icon" />
+	<link rel="icon" href="images/sx.ico" type="images/x-icon" />
+	<!-- bootstrap-css -->
+	
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!--// bootstrap-css -->
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!--// css -->
+	<!-- font-awesome icons -->
+	<link href="css/font-awesome.css" rel="stylesheet"> 
+	<!-- //font-awesome icons -->
+	<!-- font -->
+	<link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	<!-- //font -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+	</script>	
+	<!--animate-->
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<!--//end-animate-->
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="top-header">
+			<div class="container">
+				<div class="top-header-info">
+					<div class="top-header-left wow fadeInLeft animated" data-wow-delay=".5s">
+						<p>期待你的加入</p>
+					</div>
+					<div class="top-header-right wow fadeInRight animated" data-wow-delay=".5s">
+						<div class="top-header-right-info">
+							<ul>
+								<li><a href="login.html">登录</a></li>
+								<li><a href="signup.html">注册</a></li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-header">
+			<div class="container">
+				<div class="logo wow fadeInDown animated" data-wow-delay=".5s">
+					<h1><a href="index.html"><img src="images/logo.jpg" alt="" /></a></h1>
+				</div>
+				<div class="top-nav wow fadeInRight animated" data-wow-delay=".5s">
+					<nav class="navbar navbar-default">
+						<div class="container">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Menu						
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html" class="active">主页</a></li>
+								<li><a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">参加比赛<span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a class="hvr-bounce-to-bottom" href="gallery1.html">报名</a></li>
+										<li><a class="hvr-bounce-to-bottom" href="gallery1.html">结题</a></li>
+									</ul>
+								</li>
+								<li><a href="data.html">往年数据</a></li>
+								<li><a href="blog.html">成长足迹</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- banner -->
+	<div class="banner">
+		<div class="slider">
+			<h2 class="wow shake animated" data-wow-delay=".5s">尚轩</h2>
+			<div class="border"></div>
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				$(function () {
+					// Slideshow 4
+					$("#slider3").responsiveSlides({
+						auto: true,
+						pager: true,
+						nav: true,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+							$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});				
+				});
+			</script>
+			<div  id="top" class="callbacks_container-wrap">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="slider-info">
+							<h3 class="wow fadeInRight animated" data-wow-delay=".5s">让选择变得简单</h3>
+							<p class="wow fadeInLeft animated" data-wow-delay=".5s">选择自己的喜欢的比赛,激发最好的自己!</p>
+							<div class="more-button wow fadeInRight animated" data-wow-delay=".5s">
+								<a href="gallery1.html">选择比赛</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="slider-info">
+							<h3>让信心变得更坚</h3>
+							<p>学习往届的获奖作品,提高自身最大的潜能！</p>
+							<div class="more-button">
+								<a href="data.html">查看作品	</a>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="slider-info">
+							<h3>让脚步记录成长</h3>
+							<p> 关注最新的动态,了解成长的收获!</p>
+							<div class="more-button">
+								<a href="blog.html">成长足迹</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids">
+				<div class="col-md-6 banner-bottom-left wow fadeInLeft animated" data-wow-delay=".5s">
+					<div class="left-border">
+						<div class="left-border-info">
+							<p>让参赛变得简单!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 banner-bottom-left banner-bottom-right wow fadeInRight animated" data-wow-delay=".5s">
+					<div class="left-border">
+						<div class="left-border-info right-border-info">
+							<p>让成长变得轻松!</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner-bottom -->
+	<!-- information -->
+	<div class="information">
+		<div class="container">
+			<div class="information-heading">
+				<h3 class="wow fadeInDown animated" data-wow-delay=".5s">尚轩小天地</h3>
+				<p class="wow fadeInUp animated" data-wow-delay=".5s">我们致力于简单便捷比赛流程，快乐轻松的成长体验!</p>
+			</div>
+			
+			<div class="information-grids">
+				<div class="col-md-4 information-grid wow fadeInLeft animated" data-wow-delay=".5s">
+					<div class="information-info">
+						<div class="information-grid-img">
+							<img src="images/bs1_new.png" alt="" />
+						</div>
+						<div class="information-grid-info">
+							<h4>最新比赛 </h4>
+							<p>了解最新的比赛,来充实自己的成长历程,我们等待你的参与!</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 information-grid wow fadeInUp animated" data-wow-delay=".5s">
+					<div class="information-info">
+						<div class="information-grid-info">
+							<h4>最新"战况"</h4>
+							<p>了解你喜欢的作品,增长自己的才干，让自己变得更强!</p>
+						</div>
+						<div class="information-grid-img">
+							<img src="images/bs2_new.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 information-grid wow fadeInRight animated" data-wow-delay=".5s">
+					<div class="information-info">
+						<div class="information-grid-img">
+							<img src="images/bs3_new.jpg" alt="" />
+						</div>
+						<div class="information-grid-info">
+							<h4>最新动态</h4>
+							<p>时刻了解尚轩的最新动态，帮你历练比赛中最好的自己！</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //information -->
+	
+	<!-- popular -->
+	<div class="popular">
+		<div class="container">
+			<div class="popular-heading information-heading">
+				<h3 class="wow fadeInDown animated" data-wow-delay=".5s">尚轩寄语</h3>
+				<p class="wow fadeInUp animated" data-wow-delay=".5s">
+					也许你航行一生，也没有到达彼岸;也许你攀登一世，也没有登上顶峰。但是，能触礁的，都是勇士;敢失败的，未必不是英雄。不必太关心奋斗的结局如何。奋斗了，就问心无愧;奋斗了，就是成功的人生。 　　人生的路，无需苛求，只要你迈步，路就会在你脚下延伸;只要你扬帆，便会八面来风。启程了，人的生命才真正开始;启程了，人的智慧才得以发挥。
+				</p>
+			</div>
+			<div class="popular-slide">
+				<script>
+					// You can also use "$(window).load(function() {"
+					$(function () {
+						// Slideshow 4
+						$("#slider1").responsiveSlides({
+							auto: true,
+							pager: true,
+							nav: false,
+							speed: 500,
+							namespace: "callbacks",
+							before: function () {
+								$('.events').append("<li>before event fired.</li>");
+							},
+							after: function () {
+								$('.events').append("<li>after event fired.</li>");
+							}
+						});				
+					});
+				</script>
+				<div  id="top" class="callbacks_container-wrap">
+					<ul class="rslides" id="slider1">
+						<li>
+							<div class="popular-slide-info wow bounceIn animated" data-wow-delay=".5s">
+								<h4 style="font-size:30px;">所谓青春，就是心理的年轻。</h4>
+								<p>. 人生最大的感叹是：年轻的激情是从未实现;年老的追忆是从没发生。勇气是青年人漂亮的装饰。假若人生下来就是中年，然后再渐渐年轻起来，那样，他就会珍惜一切时光，决不会再无谓的事情上消耗自己。风华正茂夜晚给老年人带来平静，给青年人带来希望。——萧伯纳
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="popular-slide-info popular-slide1">
+								<h4 style="font-size:30px;">真理尽管苦涩，然而鲜明</h4>
+								<p>
+									每一个明天都是希望。希望是最美好的。世上最残酷的事情莫过于扼杀希望，最善良的事情莫过于培育希望。现实无论怎样严峻，只要未来有希望，人的意志都不易被摧垮;现实无论怎样憩适，只要前景一片暗淡，人的心情都会悲观和消沉。 　　前途比现实重要，希望比现在更重要。
+								</p>
+							</div>
+						</li>
+						<li>
+							<div class="popular-slide-info popular-slide2">
+								<h4 style="font-size:30px;">白首壮心驯大海，青春浩气走千山</h4>
+								<p>
+									实力就是机会。机会是为才能准备的，才能是为成功准备的。一个人愈有才能，命运降临到他身上的机会就愈多;他得到的机会愈多，他距成功的距离就愈近。增长才干就是增加机会。 　　生活中，我们个人的机会并不少，少的是勇气和能力。把握机会，也就是把握人生。这可以使我们少生“恨满长安千古道”的遗憾。
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<span>Copyright © <a href="javascript:;">尚轩</a></span> |
+					<span><a href="javascript:;" target="_blank">*********</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
